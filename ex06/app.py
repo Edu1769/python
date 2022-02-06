@@ -1,0 +1,1 @@
+print('\003 [0;31;43mkakashi')
