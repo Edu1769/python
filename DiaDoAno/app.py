@@ -7,8 +7,12 @@ quantDias = 0
 
 for i in range(0, mes):
     quantDias = meses[i] + quantDias
+    
+quantDias = (quantDias - meses[i])+dia
 
 print("\n===================================\n")
-print(" Data escolhada {}/{}/{}" .format(dia,mes,ano))
+print(" Data escolhida {}/{}/{}" .format(dia,mes,ano))
 print(" Quantidades de dias: {}" .format(quantDias))
 print("\n===================================")
+
+
