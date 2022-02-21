@@ -11,7 +11,8 @@ for i in range(0, mes):
 quantDias = (quantDias - meses[i])+dia
 
 print("\n===================================\n")
-print(" Data escolhida {}/{}/{}" .format(dia,mes,ano))
+#print(" Data escolhida {}/{}/{}" .format(dia,mes,ano))
+print(f' Data escolhida {dia}/{mes}/{ano}')
 print(" Quantidades de dias: {}" .format(quantDias))
 print("\n===================================")
 
