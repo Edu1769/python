@@ -18,6 +18,7 @@ os.system('cls' if os.name == 'nt' else 'clear')
 
 if escolha == 1:
     decimal = int(input("Digite um numero: "))
+    print(f"{decimal} -> ", end="")
     while i < 7:
         binario[i] = decimal % 2
         decimal = math.trunc(decimal/2)
@@ -36,3 +37,12 @@ elif escolha == 2:
         i-=1
         cont+=1
     print(f"{binario} -> {dec}")
+
+elif escolha == 3: 
+    decimal = int(input("Digite um numero: "))
+    while decimal %16 != 0:
+        i= decimal%16
+        print(i, end="")
+        decimal = math.trunc(decimal/16)
+        # Falta inverter
+    
