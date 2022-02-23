@@ -1,6 +1,5 @@
 from time import sleep
 
-
 def contador(i, f, p):
 
     if i<f:
@@ -14,6 +13,7 @@ def contador(i, f, p):
             sleep(0.3)
             i = i-p
     
+help(print)
 
 inicio = int(input("Digite o valor inicial: "))
 fim = int(input("Digite o valor final: "))
